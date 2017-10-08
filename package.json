@@ -1,0 +1,24 @@
+{
+  "name": "ld-hasher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattcollier/ld-hasher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mattcollier/ld-hasher/issues"
+  },
+  "homepage": "https://github.com/mattcollier/ld-hasher#readme",
+  "dependencies": {
+    "async": "^2.5.0",
+    "aws-sdk": "^2.130.0",
+    "bedrock": "digitalbazaar/bedrock#jsonld-1.1",
+    "bedrock-ledger-context": "github:digitalbazaar/bedrock-ledger-context",
+    "ni-uri": "^1.1.3"
+  }
+}
