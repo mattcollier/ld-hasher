@@ -4,7 +4,7 @@ config.core.workers = 1;
 
 config['ld-hasher'] = {};
 
-config['ld-hasher'].loops = 500;
+config['ld-hasher'].loops = 5000;
 
 config['ld-hasher'].doc = {
   "@context": "https://w3id.org/webledger/v1",
